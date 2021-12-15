@@ -103,3 +103,19 @@ font-family: "Helvetica";
 font-family: "Oswald";
 font-size: 52px;
 }
+
+/* Footer */
+
+footer{
+    background-color: #660066;
+}
+
+#Footer h1{
+    font-family: "Oswald";
+}
+
+footer a {
+color: white;
+text-decoration: none;
+}
+
