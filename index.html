@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap 5.1.3 -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Font Awesome -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Fonts -->
@@ -50,19 +50,19 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre Mí</a>
+                            <a class="nav-link" href="#Hero-Section">Sobre Mí</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experiencia</a>
+                            <a class="nav-link" href="#Experiencia">Experiencia</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Trabajos</a>
+                            <a class="nav-link" href="#Trabajos">Trabajos</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#Contacto">Contacto</a>
                         </li>
 
 
@@ -90,9 +90,12 @@
 
         <div>
             <h4 class="text-center fw-bold">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, commodi itaque. Quis, quibusdam
-                tempore consectetur illo dolorum illum, voluptatibus praesentium corporis itaque eius enim nemo labore
-                nostrum, iusto magni excepturi.
+                Hola. Yo soy Dirk Gastón. Un poco cliché pero soy lo que se viene llamando un "ciudadano del mundo". De
+                verdad, nací en Alemania (1987),
+                me crié en España, he vivido en Hungría y he estado con un pie en Irlanda. Ahora mismo afincado en
+                Chile.
+
+
             </h4>
             <hr class="opacity-100 w-25 mx-auto">
         </div>
@@ -101,17 +104,26 @@
 
             <div class="col-6">
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sunt expedita ullam quae ad? Facilis
-                    velit neque iste corrupti, cupiditate, fuga a dolores, aliquid tenetur reprehenderit incidunt
-                    dignissimos dolorem doloribus.
+                    Lo mío siempre ha sido la escritura en todas sus vertientes. He trabajado como traductor freelance y
+                    copywriter. Aparte de mi
+                    interés por la publicidad, mi verdadera pasión es la escritura literaria en todas sus vertientes, la
+                    poesía y el cine.
+                    He sido blogger cultural durante años y he creado, abandonado y retomado un sinfín de blogs sobre
+                    literatura, cine, música, filosofía, cómics, comedia y algunos blogs de temáticas variopintas.
+                    Aparte de esto, soy un apasionado de la gastronomía y la comedia. Las relaciono porque no se me
+                    ocurren mejores formas de hacer feliz a la gente.
                 </p>
             </div>
             <div class="col-6">
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde repellendus est quas perspiciatis?
-                    Velit, accusantium! Dolores consectetur perferendis exercitationem cum aspernatur eaque. Deserunt
-                    eveniet, ex quae corporis ratione vitae repellendus!
-                </p>
+                    Los últimos tres años, en mi trabajo, aparte de desempeñar funciones de community manager y
+                    administración, me he encargado de buena parte
+                    del diseño web de nuestra marca con ELEMENTOR en Wordpress. A raíz de esto he superado el miedo que
+                    le tenía a la programación, a pesar de haber sido
+                    siempre una persona con mucha soltura informática en general, y estoy cursando el Bootcamp de
+                    Desarrollo Front End de <span class="fw-bold">Desafío Latam</span>.
+                    Soy curioso por naturaleza y después de finalizar el Bootcamp seguramente siga formándome en otras
+                    áreas y lenguajes y profundizar en la programación todo lo que pueda.</p>
             </div>
 
         </div>
@@ -131,13 +143,15 @@
         <div class="row pt-3">
 
             <article class="col-12 col-sm-6">
-                <i class="fab fa-wordpress fa-10x"></i>
+                <i class="fab fa-wordpress fa-10x" data-bs-toggle="tooltip" data-bs-placement="left"
+                    title="Mira, un Tooltip a la Izquierda"></i>
                 <h4 class="fw-bold mt-3">Blogger Cultural</h4>
                 <h4>2007 - 2020</h4>
             </article>
 
             <article class="col-12 col-sm-6">
-                <i class="fab fa-elementor fa-10x"></i>
+                <i class="fab fa-elementor fa-10x" data-bs-toggle="tooltip" data-bs-placement="right"
+                    title="Mira, un Tooltip a la Derecha"></i>
                 <h4 class="fw-bold mt-3">Desarrollador en Elementor</h4>
                 <h4>2019-2021</h4>
             </article>
@@ -159,7 +173,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-4 my-3">
-                    <div class="card border-0">
+                    <div class="card border-0 h-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
 
                         <a href="https://dirkgaston.github.io/Meet-Coffee/"><img src="assets/img/meet_coffee.png"
                                 class="card-img-top" alt="meet_coffee"></a>
@@ -167,16 +181,15 @@
                         <div class="card-body">
                             <h4 class="card-title">Meet & Coffee</h4>
                             <p class="card-text fw-light">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maiores ab laboriosam
-                                accusantium eos numquam obcaecati voluptatibus quod recusandae doloremque id aliquam
-                                adipisci, aspernatur alias pariatur quos ullam beatae ex.
+                                Primer ejercicio de la unidad de HTML y CSS. Aquí se tocaba sólo la base del lenguaje HTML y CSS para poder estructurar correctamente una página
+                                y definir su apartado visual de manera personalizada. Al ver sólo lo básico, el diseño no es responsive.
 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 my-3">
-                    <div class="card border-0">
+                    <div class="card border-0 h-100">
 
                         <a href="https://dirkgaston.github.io/Iguana/"><img src="assets/img/iguana_page.png"
                                 class="card-img-top" alt="iguana_page"></a>
@@ -184,16 +197,15 @@
                         <div class="card-body">
                             <h4 class="card-title">Iguana Page</h4>
                             <p class="card-text fw-light">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maiores ab laboriosam
-                                accusantium eos numquam obcaecati voluptatibus quod recusandae doloremque id aliquam
-                                adipisci, aspernatur alias pariatur quos ullam beatae ex.
+                                El proyecto Iguana fue el desafío final de la unidad de HTML y CSS. Al igual que en el proyecto <span class="fw-bold">"Meet & Coffee"</span>
+                                se trataba de implementar lo aprendido en los ejercicios anteriores de HTML y CSS para poder diseñar una maqueta de landing page básica. No es responsive.
 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 my-3">
-                    <div class="card border-0">
+                    <div class="card border-0 h-100">
 
                         <a href="https://dirkgaston.github.io/Suricata/"><img src="assets/img/suricata.png"
                                 class="card-img-top" alt="suricata"></a>
@@ -201,16 +213,15 @@
                         <div class="card-body">
                             <h4 class="card-title">Suricata</h4>
                             <p class="card-text fw-light">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maiores ab laboriosam
-                                accusantium eos numquam obcaecati voluptatibus quod recusandae doloremque id aliquam
-                                adipisci, aspernatur alias pariatur quos ullam beatae ex.
+                                Primer desafío de la unidad de Bootstrap del módulo Fundamentos de Desarrollo Web. Aquí empezamos a implementar Bootstrap como herramienta para facilitar
+                                el diseño responsive y agilizar toda la parte del CSS para definir el estilo visual de una página.
 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 my-3">
-                    <div class="card border-0">
+                    <div class="card border-0 h-100">
 
                         <a href="https://dirkgaston.github.io/Cuppon/"><img src="assets/img/cuppon.png"
                                 class="card-img-top" alt="cuppon"></a>
@@ -218,41 +229,39 @@
                         <div class="card-body">
                             <h4 class="card-title">Cuppon</h4>
                             <p class="card-text fw-light">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maiores ab laboriosam
-                                accusantium eos numquam obcaecati voluptatibus quod recusandae doloremque id aliquam
-                                adipisci, aspernatur alias pariatur quos ullam beatae ex.
+                                Último desafío de la unidad de Bootstrap del módulo Fundamentos de Desarrollo Web. El objetivo era lograr un diseño responsive bien estructurado 
+                                en DESKTOP a partir de una maqueta de MOBILE.
 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 my-3">
-                    <div class="card border-0">
+                    <div class="card border-0 h-100">
 
-                        <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida">
+                        <a href="https://dirkgaston.github.io/Ricomida/"><img src="assets/img/ricomida.png"
+                            class="card-img-top" alt="ricomida"></a>
 
                         <div class="card-body">
                             <h4 class="card-title">Ricomida</h4>
                             <p class="card-text fw-light">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maiores ab laboriosam
-                                accusantium eos numquam obcaecati voluptatibus quod recusandae doloremque id aliquam
-                                adipisci, aspernatur alias pariatur quos ullam beatae ex.
+                               Desafío de la unidad de JavaScript del módulo Fundamentos de Desarrollo Web. Aquí empezamos a implementar Bootstrap JS y la herramienta jQuery
+                               para añadir funcionalidad a la página con elementos interactivos como el "tooltip", el "carousel" y utilizar correctamente los selectores con jQuery.
 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 my-3">
-                    <div class="card border-0">
+                    <div class="card border-0 h-100">
 
-                        <img src="assets/img/dmark.png" class="card-img-top" alt="dmark">
+                        <a href="https://dirkgaston.github.io/Viajes-Chile/"><img src="assets/img/viajes_chile.png" 
+                            class="card-img-top" alt="viajes chile"></a>
 
                         <div class="card-body">
-                            <h4 class="card-title">DMark</h4>
+                            <h4 class="card-title">Viajes Chile</h4>
                             <p class="card-text fw-light">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maiores ab laboriosam
-                                accusantium eos numquam obcaecati voluptatibus quod recusandae doloremque id aliquam
-                                adipisci, aspernatur alias pariatur quos ullam beatae ex.
+                                Prueba final del módulo Fundamentos de Desarrollo Web del Bootcamp de Desarrollo Front End de <span class="fw-bold">Desafío Latam</span>
 
                             </p>
                         </div>
@@ -275,11 +284,18 @@
 
         <div>
 
-            <p>¿Quieres concer más sobre mi?</p>
+            <p>¿Quieres conocer más sobre mi?</p>
+
+            <a target="_blank" href="https://linktr.ee/DirkGaston">
+
+                <button class="btn bg-secondary text-white">Pues dale aquí, sin miedo</button>
+            </a>
+
+            <p class="mt-3">¿Quieres contactar conmigo?</p>
 
             <a target="_blank" href="https://ep4kduumi12.typeform.com/to/gOowq2Em">
 
-                <button class="btn bg-secondary text-white">Comenzar</button>
+                <button class="btn bg-secondary text-white">Entonces, click aquí y a ver lo que pasa...</button>
             </a>
 
         </div>
@@ -293,7 +309,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6">
 
-                    <h1 class="fw-bold text-uppercase">dirk</h1>
+                    <h1 class="fw-bold text-uppercase">mis redes</h1>
 
                 </div>
                 <div class="col-12 col-sm-6">
@@ -314,31 +330,46 @@
                         <i class="fab fa-twitter-square fa-3x mx-2"></i>
                     </a>
 
-                    <a href="https://www.pinterest.es/dirkgaston/">
-                        <i class="fab fa-pinterest-square fa-3x mx-2"></i>
-                    </a>
-
-                    <a href="https://www.last.fm/user/DirkGaston">
-                        <i class="fab fa-lastfm-square fa-3x mx-2"></i>
-                    </a>
-
-                    <a href="https://www.goodreads.com/user/show/10619849-dirk-gast-n">
-                        <i class="fab fa-goodreads fa-3x mx-2"></i>
-                    </a>
-
-
-
                 </div>
             </div>
         </div>
 
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Meet & Coffee</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Primer Proyecto hecho en el Módulo de Fundamentos de Desarrollo Web.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+
     <!-- Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <!-- jQuery 3.6.0 -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- JS Script -->
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
